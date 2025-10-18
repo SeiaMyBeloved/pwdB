@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css" media="screen">
+    @import url(css/style.css);
+</style>
+    <title>Reservation Hotel Room</title>
+</head>
+<body>
+    <h1 class="judul">Reservation Hotel Room</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset class="teks">
+            <legend class="lejen">Personal Data</legend>
+            1. Name <br />
+            <input class="kotak" type="text" name="name" /><br /><br />
+
+            2. Gender <br />
+            <input class="kotak" type="text" name="gender" /><br /><br />
+
+            3. Email Address <br />
+            <input class="kotak" type="email" name="email" /><br /><br />
+
+            4. Trip Number <br />
+            <input class="kotak" type="text" name="trip_number" /><br /><br />
+        </fieldset>
+        <br />
+
+        <fieldset class="teks">
+            <legend>Reservation Room Form</legend>
+            1. Reservation Name <br />
+            <input class="kotak" type="text" name="reservation_name" /><br /><br />
+
+            2. Booking Date <br />
+            <input class="kotak" type="text" name="booking_date" /><br /><br />
+
+            3. Room Type <br />
+            <select class="kotak" name="room_type">
+                <option value="deluxe">Deluxe</option>
+                <option value="superior">Superior</option>
+                <option value="suite">Suite</option>
+            </select><br /><br />
+
+            4. Bed Type <br />
+            <select class="kotak" name="bed_type">
+                <option value="single">Single bed</option>
+                <option value="double">Double bed</option>
+            </select><br /><br />
+
+            5. Breakfast <br />
+            <input class="kotak" type="radio" name="breakfast" value="with" /> With Breakfast
+            <input class="kotak" type="radio" name="breakfast" value="without" /> Without Breakfast
+            <br /><br />
+        </fieldset>
+        <br />
+
+        <fieldset class="teks">
+            <legend>Payment</legend>
+            1. Check-in Date <br />
+            <input class="kotak" type="text" name="check_in" /><br /><br />
+
+            2. Check-out Date <br />
+            <input class="kotak" type="text" name="check_out" /><br /><br />
+
+            3. Payment Method <br />
+            <select class="kotak" name="payment_method">
+                <option value="cash">Cash</option>
+                <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+            </select><br /><br />
+        </fieldset>
+        <br />
+
+        <input class="kotak" type="submit" value="Submit" />
+    </form>
+</body>
+</html>
