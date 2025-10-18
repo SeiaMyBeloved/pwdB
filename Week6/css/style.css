@@ -12,11 +12,17 @@
   border-color: #fff98d;
   border-radius: 8px;
   background-color: #46420066;
+  background-size: 100px;
+  width: 800px;
 }
 
-fieldset legend{
-   transform: scale(1.05);
+fieldset.teks legend{
+   transform: scale(1.13);
     transform-origin:30px left;
+    padding:10px;
+    font-size: large;
+    -webkit-text-stroke: 0.46px rgb(89, 89, 0);
+  color: rgb(255, 250, 97);
 }
 
 fieldset input{
@@ -25,6 +31,15 @@ fieldset input{
 
 .kotak{
     border-radius: 6px;
+}
+
+.kotak2{
+    border-radius: 6px;
+    border-color: #fefa08;
+    background-color:#f9f6ba;
+    color: #514f00;
+    width: 100px;
+    height: 30px;
 }
 
 body::before {
@@ -51,5 +66,12 @@ body::after {
 }
 
 input:hover{
-    background-color: #00000066;
+    background-color: #2e350066;
 }
+
+form{
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
